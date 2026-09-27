@@ -14,11 +14,11 @@ import java.util.List;
 
 @RestController
 @RequestMapping("person")
-public class PessoaController {
+public class PersonController {
 
     private final PersonService personService;
 
-    public PessoaController(PersonService personService) {
+    public PersonController(PersonService personService) {
         this.personService = personService;
     }
 
