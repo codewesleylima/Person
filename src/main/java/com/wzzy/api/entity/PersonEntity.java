@@ -10,7 +10,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Person {
+public class PersonEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
