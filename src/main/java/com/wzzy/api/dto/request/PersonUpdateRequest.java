@@ -5,8 +5,6 @@ import jakarta.validation.constraints.NotNull;
 
 public record PersonUpdateRequest(
         @NotBlank
-        String personId,
-        @NotBlank
         String name,
         @NotNull
         String old,
