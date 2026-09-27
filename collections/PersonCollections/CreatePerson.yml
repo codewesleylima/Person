@@ -1,0 +1,23 @@
+info:
+  name: CreatePerson
+  type: http
+
+http:
+  method: POST
+  url: http://localhost:8080/person/create
+  body:
+    type: json
+    data: |-
+      {
+        "name": "Emily Keren",
+        "old": "23",
+        "city": "São Paulo",
+        "job": "Negócios"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
